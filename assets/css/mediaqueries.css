@@ -1,0 +1,99 @@
+/***
+* TABLET STYLES
+**/ 
+@media screen and (min-width: 750px ) {
+    header nav {
+        display: block;
+    }
+    .overlay section.headline-container {
+        width: 45%;
+        height: 22%;
+       
+    }
+    .headline-content h1 {
+        font-weight: 700;
+        font-size: 1.5rem;
+
+    }
+}
+
+@media screen and (min-width: 900px ) {
+    header nav {
+        display: block;
+    }
+    .overlay section.headline-container {
+
+        width: 35%;
+        height: 22%;
+    }
+    .headline-content h1 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-bottom: 7%;
+    }
+    .shop-now {
+        font-size: 1rem;
+    }
+}
+
+/** DESKTOP STYLES **/
+@media screen and (min-width: 1000px ) {
+    header nav {
+        display: block;
+    }
+    .overlay section.headline-container {
+        width: 20%;
+        height: 23%;
+       
+    }
+    .headline-content h1 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-bottom: 8%;
+    }
+    .shop-now {
+        font-size: 1rem;
+    }
+}
+/** EXTREMELY SMALL SCREEN STYLES
+@media screen and (max-width: 400px ) {
+   
+    .overlay section.headline-container {
+
+        width: 85%;
+        height: 24%;
+    }
+    .headline-content h1 {
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 2.5%;
+    }
+}*/
+
+/** EXTREMELY SMALL SCREEN STYLES*/
+@media screen and (max-width: 399px ) {
+   
+    .overlay section.headline-container {
+        padding: 0.5;
+        width: 85%;
+        height: 24%;
+    }
+    .headline-content h1 {
+        font-weight: 700;
+        font-size: 2rem;
+        margin-bottom: 4%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+   
+    .overlay section.headline-container {
+        width: 70%;
+        height: 22%;
+    }
+    .headline-content h1 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-bottom: 7%;
+    }
+}
