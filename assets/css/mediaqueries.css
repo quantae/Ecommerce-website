@@ -97,3 +97,48 @@
         margin-bottom: 7%;
     }
 }
+
+
+/** PRODUCT SECTION MEDIA QUERIES**/
+@media screen and (min-width: 960px) {
+    section .feature-products {
+        flex-direction: row;
+    }
+    .feature-products  div img {
+        width: 50%;
+        display: relative;
+    }
+}
+
+
+/** BEST PRODUCT SECTION*/
+
+@media screen and (min-width: 990px) {
+    .best-products-container{
+        flex-direction: row;
+    }
+    .best-product-item {
+        border: 1px solid black;
+           display: flex;
+           justify-content: center;
+           flex-direction: row;
+           text-align: center;
+           margin: 20px;
+           width: 400px;
+       }
+    
+}
+
+@media screen and (min-width: 960px) {
+    .recent-news-item img {
+        width: 400px;
+    }
+    .recent-news-container {
+        display: flex;
+        justify-content: center;
+        flex-direction:row;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
