@@ -1,21 +1,7 @@
 /***
 * TABLET STYLES
 **/ 
-@media screen and (min-width: 750px ) {
-    header nav {
-        display: block;
-    }
-    .overlay section.headline-container {
-        width: 45%;
-        height: 22%;
-       
-    }
-    .headline-content h1 {
-        font-weight: 700;
-        font-size: 1.5rem;
 
-    }
-}
 
 @media screen and (min-width: 900px ) {
     header nav {
@@ -55,48 +41,6 @@
         font-size: 1rem;
     }
 }
-/** EXTREMELY SMALL SCREEN STYLES
-@media screen and (max-width: 400px ) {
-   
-    .overlay section.headline-container {
-
-        width: 85%;
-        height: 24%;
-    }
-    .headline-content h1 {
-        font-weight: 700;
-        font-size: 2rem;
-        margin-bottom: 2.5%;
-    }
-}*/
-
-/** EXTREMELY SMALL SCREEN STYLES*/
-@media screen and (max-width: 399px ) {
-   
-    .overlay section.headline-container {
-        padding: 0.5;
-        width: 85%;
-        height: 24%;
-    }
-    .headline-content h1 {
-        font-weight: 700;
-        font-size: 2rem;
-        margin-bottom: 4%;
-    }
-}
-
-@media screen and (min-width: 400px) and (max-width: 500px) {
-   
-    .overlay section.headline-container {
-        width: 70%;
-        height: 22%;
-    }
-    .headline-content h1 {
-        font-weight: 700;
-        font-size: 1.5rem;
-        margin-bottom: 7%;
-    }
-}
 
 
 /** PRODUCT SECTION MEDIA QUERIES**/
@@ -132,13 +76,5 @@
 @media screen and (min-width: 960px) {
     .recent-news-item img {
         width: 400px;
-    }
-    .recent-news-container {
-        display: flex;
-        justify-content: center;
-        flex-direction:row;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
     }
 }

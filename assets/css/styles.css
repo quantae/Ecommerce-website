@@ -1,4 +1,5 @@
 /** Overwall styles*/
+/***GENERAL STYLES*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -32,14 +33,14 @@ a {
     display: flex;
     justify-content: center;
 }
-/**SHOP MENU STYLES*/
+/**SHOP NAV BAR STYLES*/
 header {
     z-index: 3;
   position: absolute;
     display: flex;
     justify-content:space-between;
     width: 100vw;
-    padding: 1.5%;
+    padding: 2%;
     top: 0;
     left: 0;
     right: 0;
@@ -71,27 +72,31 @@ header nav li a:hover {
 /** HEADLINE SECTION STYLES*/
 .overlay section.headline-container {
     position: absolute;
-    background-color:rgba(255,255, 255,0.7);
-    width: 80%;
-    height: 22%;
-    margin: 0 auto;
-    top: 35%;
-    display: flex;
-    justify-content: center;
+    background-color:rgba(255,255, 255,0.83);
+    width: 330px;
+    height: 171px;
+    top: 315px;
+    padding: 30px 66px 76px;
 }
-.headline-content {
-    padding: 10%;
-    align-items: center;
+.headline-container h1 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-}
-
-.headline-content h1 {
-    font-weight: 700;
-    font-size: 2rem;
-    margin-bottom: 2%;
+    color: #000000;
 }
 .shop-now {
     font-family: 'Dosis', sans-serif;
     color: #000000;
-    border-bottom: 1px solid #000000;
 }
+.headline-container a {
+    margin: 13px auto 0;
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    display: block;
+}
+/**END*/

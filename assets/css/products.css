@@ -1,29 +1,26 @@
 /** PRODUCT FEATURE CSS*/
-
+div a {
+    text-decoration-line: underline;
+}
 .feature-product-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
 .feature-product-item {
     position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 20px;
-    width: 600px;
+    margin: 10px 10px;
+    width: 350px;
+    height: 178px;
 }
-
 .feature-text {
     position: absolute;
-    top: 150px;
-    left: 30px;
+    top: 40px;
+    left: 26px;
 }
-
 
 .feature-products  div img {
     width: 100%;
@@ -34,45 +31,73 @@
    left: 50%;
 }
 
-section div h2 {
+.feature-text h2 {
 font-family: 'Poppins', sans-serif;
 font-size: 20px;
 line-height: 25px;
 font-weight: 300;
+text-align: center;
 }
-
+.feature-shop-now a{
+    font-family: 'Dosis', sans-serif;
+}
+.feature-text div.feature-shop-now {
+    margin-top: 10px !important;
+}
 /**BEST PRODUCTS*/
+.best-products-section h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 25px;
+    color: #000000;
+    margin: 15px 0;
+}
 .best-products-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
 }
-
 .best-products-container div img {
     width: 100%;
 }
+
+.product-overlay {
+    z-index: 999;  
+    background: rgba(0,0,0,0.5);
+    height: 350px;
+}
 .best-product-item {
     position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     text-align: center;
-    margin: 20px;
-    width: 400px;
+    margin: 10px;
+    width: 350px;
+    
 }
 .best-product-item div {
  position: absolute;
- top:50%;
- left: 30px;
- text-align: center;
+ top: 135px;
+ left: 109px;
 }
 .best-product-desc {
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
+.best-product-desc p, span {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+.best-product-desc p:last-child {
+    margin-top: 10px;
+}
 /***RECENT NEWS SESSION**/
 .recent-news-img {
 width: 100%;
