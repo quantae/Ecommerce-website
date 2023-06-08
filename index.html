@@ -43,7 +43,7 @@
             <div class="shop-menu"> <!-- .shop-menu icons/items div -->
                 <i data-feather="user"></i>
                 <i data-feather="shopping-cart"></i>
-                <i data-feather="menu"></i>
+                <i data-feather="menu" id="menu-toggle"></i>
             </div><!-- end of .shop-menu icons div-->
         </header><!-- end of header element-->
 
@@ -72,81 +72,93 @@
         </div>
     </section>
 
-<!--BEST PRODUCTS SECTION-->
+    <!--BEST PRODUCTS SECTION-->
     <section class="best-products-section"> <!--Best Product section-->
         <div>
             <h3>Best Products</h3>
         </div>
         <div class="best-products-container">
-            <div class="product-overlay">
-<div class="best-product-item">
+            <!---ITEM 1-->
+            <div class="best-product-item">
                 <img src="./new-assets-images/pr1.png" alt="Christopher Knight Furniture" />
-                <div class="best-product-desc">
-                    <p>Christopher <br>Knight Furniture</p>
-                    <p>$ 235.23</p>
+                <div class="product-overlay">
+                    <div class="best-product-desc">
+                        <p>Christopher Knight Furniture</p>
+                        <p>$ 235.23</p>
+                    </div>
                 </div>
-
             </div>
-            </div>
-            
+            <!---ITEM 2-->
             <div class="best-product-item">
                 <img src="./new-assets-images/pr2.png" alt="cup" />
-                <div class="best-product-desc">
-                    <p>Wheat Straw unbreakable cup</p>
-                    <span>$ 67.15</span>
+                <div class="product-overlay">
+                    <div class="best-product-desc">
+                        <p>Wheat Straw unbreakable cup</p>
+                        <p>$ 67.15</p>
+                    </div>
                 </div>
-
             </div>
+            <!--ITEM 3-->
             <div class="best-product-item">
                 <img src="./new-assets-images/pr3.png" alt="Adidas bag" />
-                <div class="best-product-desc">
-                    <p>Adidas Classic Bag</p>
-                    <span>$ 49.82</span>
+                <div class="product-overlay">
+                    <div class="best-product-desc">
+                        <p>WAdidas Classic Bag</p>
+                        <p>$ 49.82</p>
+                    </div>
                 </div>
-
             </div>
+            <!--ITEM 4-->
             <div class="best-product-item">
                 <img src="./new-assets-images/pr4.png" alt="Pencil-Pen holder" />
-                <iv>
+                <div class="product-overlay">
                     <div class="best-product-desc">
                         <p>Desk Pencil - Pen Holder</p>
-                        <span>$ 22.30</span>
+                        <p>$ 22.30</p>
                     </div>
-
+                </div>
             </div>
+            <!--ITEM 5-->
             <div class="best-product-item">
                 <img src="./new-assets-images/pr5.png" alt="Key holder" />
-                <iv>
+                <div class="product-overlay">
                     <div class="best-product-desc">
                         <p>Ripple Creak Key Holder</p>
-                        <span>$ 8.13</span>
+                        <p>$ 8.13</p>
                     </div>
-
+                </div>
             </div>
+            <!--ITEM 6-->
             <div class="best-product-item">
                 <img src="./new-assets-images/pr6.png" alt="Cotton Canvas bagr" />
-                <div class="best-product-desc">
-                    <p>Economical Cotton Canvas</p>
-                    <span>$ 11.08</span>
+                <div class="product-overlay">
+                    <div class="best-product-desc">
+                        <p>Economical Cotton Canvas </p>
+                        <p>$ 11.08</p>
+                    </div>
                 </div>
-
             </div>
+            <!--ITEM 7-->
             <div class="best-product-item">
                 <img src="./new-assets-images/pr7.png" alt=" Micheal Kors Original" />
-                <div class="best-product-desc">
-                    <p>Micheal Kors Original</p>
-                    <span>$ 15.10</span>
+                <div class="product-overlay">
+                    <div class="best-product-desc">
+                        <p>Micheal Kors Original </p>
+                        <p>$ 15.10</p>
+                    </div>
                 </div>
-
             </div>
+            <!--ITEM 8-->
             <div class="best-product-item">
                 <img src="./new-assets-images/pr8.png" alt="Women Leather bag" />
-                <div class="best-product-desc">
-                    <p>Bostanten Women Leather</p>
-                    <span>$ 234.26</span>
+                <div class="product-overlay">
+                    <div class="best-product-desc">
+                        <p>Bostanten Women Leather </p>
+                        <p>$ 234.26</p>
+                    </div>
                 </div>
-
             </div>
+
         </div>
 
     </section><!--End of best product-->
@@ -191,12 +203,48 @@
 
     </section>
     <footer>
-        <div class="footer-addresss">
-            <img src="./new-assets-images/logo.png" alt="logo" />
+        <div class="address-sub-container">
+             <div class="address">
+                <img src="./new-assets-images/logo.png" alt="logo" />
+                <div>
+                    <i data-feather="map-pin"></i>
+                    <p>194 Main Rd T, FS Rayed, USA</p>
+                </div>
+                <div>
+                    <i data-feather="mail"></i>
+                    <p>info@tmart.org</p>
+                </div>
+                <div>
+                    <i data-feather="phone-call"></i>
+                    <p>+233 244 244 244</p>
+                </div>
+            </div>
+            <div class="footer-news-letter-sub">
+            <div class="sub-text">
+                <p>Subscribe to our newsletter and get 10% off your first purchase</p>
+            </div>
+            <div>
+                <form>
+                    <div class="newsletter-input">
+                        <input type="email" id="email" name="email" placeholder="Enter email address" />
+                        <i data-feather="chevron-right"></i>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="footer-new-letter-sub">
-            <p>Subscribe to our newsletter and get 10% off your first purchase</p>
         </div>
+           
+     
+        
+        <div class="trade-mark">
+            <div class="hr-line-container">
+                  <hr class="horizontal-line">
+            </div>
+          <div>
+            <p class="created">Tmart - All rights reserved</p>
+          </div>
+        </div>
+        
     </footer>
     <script>
         feather.replace()
